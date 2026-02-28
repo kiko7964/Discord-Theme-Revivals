@@ -27,12 +27,13 @@
 */
 @import url('https://slippinggitty-s-discord-things.github.io/Chat-Bubbles/ChatBubbles.theme.css');
 @import url('https://slippinggittys-discord-themes.github.io/DiscoCities/components/file%20of%20fonts.css');
-@import url('https://slippinggittys-discord-themes.github.io/DiscoCities/components/file%20of%20icons.css');
-@import url('https://slippinggittys-discord-themes.github.io/DiscoCities/components/file%20of%20selectors.css'); 
-@import url('https://slippinggittys-discord-themes.github.io/DiscoCities/components/file%20of%20variables.css');
+@import url('https://github.com/kiko7964/Discord-Theme-Revivals/blob/main/DiscoCities/Icons.css');
+@import url('https://github.com/kiko7964/Discord-Theme-Revivals/blob/main/DiscoCities/Selectors.css'); 
+@import url('https://github.com/kiko7964/Discord-Theme-Revivals/blob/main/DiscoCities/Variables.css');
 
 
 /* Wallpaper */
 body {
   background-image: url("https://i.pinimg.com/originals/58/23/80/5823809c12e8d3e05de3f4bffba5e848.gif");
 }
+
