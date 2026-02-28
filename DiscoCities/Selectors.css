@@ -1,0 +1,453 @@
+/* Scroll bar */
+.scrollerBase__99f8c::-webkit-scrollbar-thumb,
+.scrollerBase__99f8c::-webkit-scrollbar-track,
+.webkit__8d35a::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+/* Title Bar on macOS */
+.typeMacOS__421ed {
+  position: relative;
+  width: 100%;
+  height: 35px;
+}
+
+.theme-dark .typeMacOS__421ed {
+  background: var(--LilWatFauxTitleBar);
+}
+
+/* Title Bar */
+.theme-dark .themed__9293f {
+  background-color: var(--LilWatBackground2);
+  /*border-radius: 10px 1px 1px 10px;
+  border-top: rgb(0, 234, 255) 1px dashed;
+  border-left: rgb(0, 234, 255) 1px dashed;
+  border-bottom: rgb(0, 234, 255) 1px dashed;
+  box-shadow: 1px 3px 5px 1px rgba(0, 0, 255, 0.234);*/
+}
+
+.theme-dark .children__9293f:after {
+  display: none;
+}
+
+.search__49676, .inner_fea832 {
+  background-color: rgba(0, 7, 98, 0.33);
+  border-radius: 5px;
+  transition: all .3s ease-out;
+  border: rgba(38, 255, 0, 0.245) 2px dotted;
+  box-shadow: 1px 3px 5px 1px rgba(0, 254, 0, 0.086);
+}
+
+/* Adujustments to accommodate for the blank space used for the stoplight*/
+.platform-osx .wrapper_ef3116 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Channels */
+.link__2ea32:hover {
+  border: var(--accent) 2px dotted;
+  background-color: rgba(27, 27, 27, 1);
+  border-radius: 20px;
+  transition: all .3s ease-out;
+  box-shadow: inset 5px 0px 5px 5px rgba(0, 0, 0, 0.322);
+}
+
+.modeSelected__2ea32 .link__2ea32,
+.interactiveSelected__972a0 {
+  background-color: rgba(0, 7, 98, 0.845);
+  border-radius: 20px;
+  transition: all .3s ease-out;
+  border: yellow 2px dotted;
+  box-shadow: 1px 3px 5px 1px rgba(0, 128, 0, 0.315);
+}
+
+.unreadImportant__2ea32 {
+  animation: spin 1s infinite;
+  border-radius: 50px;
+  margin-left: 7px;
+  transition: all .03s ease-out;
+}
+
+
+/* Channels Sidebar */
+.theme-dark .container__2637a {
+  margin: 57px 5px 15px 15px;
+  background-color: var(--LilWatSB);
+  border-radius: 10px;
+  border: rgb(0, 234, 255) 1px dashed;
+  box-shadow: 1px 3px 5px 1px blue;
+}
+
+.sidebar__5e434,
+.scroller_ef3116 {
+  background-color: rgba(3, 3, 22, 0.50);
+}
+
+.animatedContainer_f37cb1 {
+  border-radius: 10px;
+  border-bottom: rgb(0, 234, 255) 1px dashed;
+}
+
+/* Members Side bar */
+.members_c8ffbb {
+  margin: 15px;
+  background-color: var(--LilWatSB);
+  border-radius: 10px;
+  border: rgb(0, 234, 255) 1px dashed;
+  box-shadow: 1px 3px 5px 1px blue;
+}
+
+.member_c8ffbb {
+  background: var(--null);
+}
+
+/* Some Shit I'll organize later */
+.childWrapper_a6ce15,
+.wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15,
+.wrapper__8436d:hover .childWrapper_a6ce15 {
+  background-color: rgba(1, 1, 1, 0) !important;
+}
+
+/* DMs Sidebar */
+.theme-dark .scroller__99e7c {
+  margin: 15px;
+  background-color: var(--LilWatSB);
+  border-radius: 10px;
+  border: rgb(0, 234, 255) 1px dashed;
+  box-shadow: 1px 3px 5px 1px blue;
+}
+
+/* Text Box Chat Thing */
+.themedBackground__74017 {
+  border-bottom: red 2px dotted;
+  border-radius: 1px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.themedBackground__74017:hover {
+  background-color: rgba(255, 0, 13, 0.11);
+  border: red 2px dotted;
+  border-radius: 20px;
+  transition: all .3s ease-out;
+  box-shadow: 1px 5px 5px 1px rgba(255, 0, 0, 0.322);
+}
+
+/* Message Actions */
+.message__5126c.selected__5126c .buttonsInner__5126c,
+.mouse-mode .message__5126c:hover .buttonsInner__5126c {
+  border-left: 4px solid rgba(50, 51, 51, 1);
+  border-bottom: rgba(50, 51, 51, 1) 2px solid;
+  background-color: rgb(27, 27, 27);
+  border-radius: 20px;
+  transition: all .3s ease-out;
+  box-shadow: inset 5px 0px 5px 5px rgba(0, 0, 0, 0.322);
+}
+
+/* Messages */
+.theme-dark #app-mount .message__5126c {
+  background-color: var(--LilWatMB);
+  border: rgb(47, 255, 0) 2px dotted;
+  box-shadow: 1px 3px 5px 1px green;
+}
+
+.newMessagesBar__0f481 {
+  background-color: rgba(0, 7, 98, 0.845);
+  border-radius: 20px;
+  transition: all .3s ease-out;
+  border: rgb(0, 255, 55) 2px dotted;
+  box-shadow: 1px 3px 5px 1px rgba(0, 128, 0, 0.315);
+  margin-top: 5px;
+}
+
+/* Context Menus */
+.scroller_c1e9c4 {
+  background: radial-gradient(circle, rgba(255, 0, 0, 0.4), rgba(255, 165, 0, 0.4), rgba(255, 255, 0, 0.4), rgba(0, 128, 0, 0.4), rgba(0, 0, 255, 0.4), rgba(75, 0, 130, 0.4), rgba(238, 130, 238, 0.4));
+  background-size: 200% 200%;
+  background-position: center;
+  animation: rainbow 5s linear infinite;
+  border: rgb(47, 255, 0) 2px dotted;
+  border-radius: 5px;
+  box-shadow: 1px 3px 5px 1px green;
+}
+
+/* Pinned Messages */
+.messagesPopout_e8b59c {
+  background: radial-gradient(circle, rgba(255, 0, 0, 0.4), rgba(255, 165, 0, 0.4), rgba(255, 255, 0, 0.4), rgba(0, 128, 0, 0.4), rgba(0, 0, 255, 0.4), rgba(75, 0, 130, 0.4), rgba(238, 130, 238, 0.4));
+  background-size: 200% 200%;
+  background-position: center;
+  animation: rainbow 5s linear infinite;
+}
+
+.messageGroupWrapper_e8b59c {
+  background-color: rgba(0, 7, 98, 0.500);
+  border-radius: 10px;
+  transition: all .3s ease-out;
+  border: rgb(0, 255, 55) 2px dotted;
+  box-shadow: 1px 3px 5px 1px rgba(0, 128, 0, 0.315);
+  margin-top: 5px;
+}
+
+.header_e8b59c {
+  background-color: rgba(0, 7, 98, 0.500);
+  transition: all .3s ease-out;
+  border: rgb(0, 255, 55) 2px dotted;
+  box-shadow: 1px 3px 5px 1px rgba(0, 128, 0, 0.315);
+
+}
+
+/* Emoji Picker */
+.contentWrapper__08434 {
+  background: radial-gradient(circle, rgb(146, 0, 0), rgb(190, 123, 0), rgb(126, 126, 0), rgba(0, 128, 0, 1), rgba(0, 0, 255, 1.4), rgba(75, 0, 130, 1), rgb(118, 0, 118));
+  background-size: 200% 200%;
+  background-position: center;
+  animation: rainbow 5s linear infinite;
+  border: rgb(47, 255, 0) 2px dotted;
+  border-radius: 5px;
+  box-shadow: 1px 3px 5px 1px green;
+}
+
+.emojiPickerHasTabWrapper_c0e32c .categoryList_c0e32c,
+.inspector_aeaaeb {
+  top: 50px;
+  background: transparent;
+}
+
+.header_c656ac,
+.packHeader_e94b8c,
+.wrapper__4e6ce,
+.categoryList_a1e0e0,
+.soundboardContainer__08434 {
+  background-color: transparent;
+}
+
+.categoryItemDefaultCategorySelected_b9ee0c,
+.categoryItemDefaultCategorySelected_b9ee0c:hover,
+.navItem__08434+.navItem__08434,
+#gif-picker-tab {
+  background-color: var(--LilWatSB);
+  border-radius: 10px;
+  border: rgb(0, 234, 255) 1px dashed;
+  box-shadow: 1px 1px 5px 1px blue;
+}
+
+
+/* Rainbow Flashy Bullshit */
+
+.name_f37cb1,
+.membersGroup_c8ffbb,
+.modeUnreadImportant__2ea32 .name__2ea32,
+.heading-md-semibold__76ba1,
+.container_cc72c1 .overflow_b0dfc2,
+.highlighted__20a53 .name__20a53,
+.modeSelected__2ea32 .name__2ea32 {
+  background-image: linear-gradient(to left, rgb(130, 202, 238), green, yellow, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.name_f37cb1:hover,
+.membersGroup_c8ffbb:hover,
+.modeUnreadImportant__2ea32 .name__2ea32:hover,
+.heading-md-semibold__76ba1:hover,
+.modeUnreadImportant__2ea32 .name__2ea32,
+.highlighted__20a53 .name__20a53 {
+  animation: rainbowText 2s infinite;
+}
+
+.subtitle__2ea32,
+.name__2ea32 {
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0.629), rgba(0, 128, 0, 0.687), rgba(0, 0, 255, 0.99), rgba(255, 255, 0, 0.91));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitle__2ea32:hover,
+.name__2ea32:hover {
+  animation: rainbowText 2s infinite;
+}
+
+@keyframes rainbowText {
+  0% {
+    text-shadow: 0 0 1px red;
+  }
+
+  14% {
+    text-shadow: 0 0 1px orange;
+  }
+
+  28% {
+    text-shadow: 0 0 1px yellow;
+  }
+
+  42% {
+    text-shadow: 0 0 1px green;
+  }
+
+  57% {
+    text-shadow: 0 0 1px blue;
+  }
+
+  71% {
+    text-shadow: 0 0 1px indigo;
+  }
+
+  85% {
+    text-shadow: 0 0 1px violet;
+  }
+
+  100% {
+    text-shadow: 0 0 1px red;
+  }
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 200% 0;
+  }
+
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes flashRainbow {
+  0% {
+    fill: red;
+  }
+
+  10% {
+    fill: orange;
+  }
+
+  20% {
+    fill: yellow;
+  }
+
+  30% {
+    fill: green;
+  }
+
+  40% {
+    fill: blue;
+  }
+
+  50% {
+    fill: indigo;
+  }
+
+  60% {
+    fill: violet;
+  }
+
+  70% {
+    fill: pink;
+  }
+
+  80% {
+    fill: magenta;
+  }
+
+  90% {
+    fill: cyan;
+  }
+
+  100% {
+    fill: red;
+  }
+}
+
+@keyframes bounce {
+  to {
+    transform: translateY(-3px);
+  }
+}
+
+/* Server Name Bounce */
+.name_f37cb1 {
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+  background-size: 400% 100%;
+  animation: moveGradient 10s linear infinite, bounce 0.5s ease infinite alternate;;
+  color: transparent;
+  -webkit-background-clip: text;
+  text-stroke: 2px black;
+}
+
+@keyframes moveGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+/* Apply the animation on hover */
+svg:hover {
+  animation: flashRainbow 2s infinite, spin 1s infinite;
+}
+
+path:hover {
+  animation: flashRainbow 2s infinite, spin 1s infinite;
+}
+
+/* Buttons */
+.lookFilled__201d5.colorBrand__201d5, .lookFilled__201d5.colorPrimary__201d5 {
+  background: radial-gradient(circle, rgba(255, 0, 0, 0.4), rgba(255, 165, 0, 0.4), rgba(255, 255, 0, 0.4), rgba(0, 128, 0, 0.4), rgba(0, 0, 255, 0.4), rgba(75, 0, 130, 0.4), rgba(238, 130, 238, 0.4));
+  background-size: 200% 200%;
+  background-position: center;
+  animation: rainbow 5s linear infinite;
+  border: rgb(47, 255, 0) 2px dotted;
+  border-radius: 5px;
+  box-shadow: 1px 3px 5px 1px green;
+}
+
+.lookFilled__201d5 .contents__201d5:hover, .lookLink__201d5 .contents__201d5:hover, .lookInverted_a299dc .contents__201d5:hover, .lookOutlined__201d5 .contents__201d5:hover {
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+  background-size: 400% 100%;
+  animation: moveGradient 10s linear infinite, bounce 0.5s ease infinite alternate;;
+  color: transparent;
+  -webkit-background-clip: text;
+  text-stroke: 2px black;
+}
+
+/* Settings Info */
+.info__2debe:after {
+  content: url('https://files.catbox.moe/04eydu.png');
+  width: 87px;
+  height: 31px; 
+}
+.versionHash__2debe:after {
+  content: "\ DiscoCities 11.2023";
+}
+
+/* Profile Card */
+.accountProfileCard__1fed1 {
+  background: radial-gradient(circle, rgba(255, 0, 0, 0.4), rgba(255, 165, 0, 0.4), rgba(255, 255, 0, 0.4), rgba(0, 128, 0, 0.4), rgba(0, 0, 255, 0.4), rgba(75, 0, 130, 0.4), rgba(238, 130, 238, 0.4));
+  background-size: 200% 200%;
+  background-position: center;
+  animation: rainbow 5s linear infinite;
+  border: rgb(47, 255, 0) 2px dotted;
+  border-radius: 5px;
+  box-shadow: 1px 3px 5px 1px green;
+}
